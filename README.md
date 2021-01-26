@@ -1,7 +1,7 @@
 # <b>Visualize Protein Sequences Using Chaos Game Representation</b>
 Protein CGR image generator.ipynb can be used to generate visualizations of protein sequences by using a modified chaos game representation.<br>
 <br>
-Chaos game representation works by iterating over an amino acid sequence an drawing a new a point for each element. The location of this point is a a distance between the previous point and the corresponding amino acid vertex.<br>
+Chaos game representation is an iterated function over an amino acid sequence an drawing a new a point for each element. The position of this point is a a distance between the previous point and the corresponding amino acid vertex.<br>
 I encourage reading of "Chaos game representation of gene structure" by H.Joel Jeffrey for an in-depth explanation of the algorithm.<br><br>
 To apply this to proteins, which are too noisy for conventonal CGR, I use a dynamic step size such that the distance between two sucessive points is dependent on amino acid similarity.
 This provides structure to the resultant image.
